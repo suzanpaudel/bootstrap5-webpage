@@ -26,7 +26,7 @@
   </head>
   <body>
     <!-- Navigation Area -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
       <div class="container">
         <a href="#" class="navbar-brand">Frontend Bootcamp</a>
 
@@ -192,6 +192,155 @@
         </div>
       </div>
     </section>
+
+    <!-- Question Accordion -->
+    <section id="questions" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="faqs">
+          <!-- Question1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-1"
+              >
+                Where exactly are you located?
+              </button>
+            </h2>
+            <div
+              id="question-1"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqs"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem
+                quisquam minus qui distinctio a laborum labore amet nobis
+                itaque, dolore consequatur quo accusamus? Tenetur, officia!
+                Rerum quibusdam placeat aliquam temporibus.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-2"
+              >
+                How much does it cost to attend?
+              </button>
+            </h2>
+            <div
+              id="question-2"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqs"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
+                nostrum natus perspiciatis accusantium itaque ut nisi provident
+                esse velit dolorem eos libero corporis exercitationem sed,
+                voluptas praesentium tempora ratione numquam!
+              </div>
+            </div>
+          </div>
+
+          <!-- Question3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-3"
+              >
+                What do I need to know?
+              </button>
+            </h2>
+            <div
+              id="question-3"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqs"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Exercitationem repellat sapiente aut ex doloremque ea quo rerum
+                deserunt commodi sequi consequatur, modi, atque quisquam
+                cupiditate quibusdam eligendi incidunt labore suscipit.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-4"
+              >
+                When will the new intake start?
+              </button>
+            </h2>
+            <div
+              id="question-4"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqs"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Exercitationem repellat sapiente aut ex doloremque ea quo rerum
+                deserunt commodi sequi consequatur, modi, atque quisquam
+                cupiditate quibusdam eligendi incidunt labore suscipit.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-5"
+              >
+                How do I sign up?
+              </button>
+            </h2>
+            <div
+              id="question-5"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqs"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Exercitationem repellat sapiente aut ex doloremque ea quo rerum
+                deserunt commodi sequi consequatur, modi, atque quisquam
+                cupiditate quibusdam eligendi incidunt labore suscipit.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2021 Frontend Bootcamp</p>
+
+        <a href="#" class="position-absolute bottom-0 end-0 p-5"
+          ><i class="bi bi-arrow-up-circle h1"></i
+        ></a>
+      </div>
+    </footer>
 
     <!-- Bootstrap JS CDN -->
     <script
